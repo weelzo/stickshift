@@ -45,6 +45,19 @@ Then, once:
 2. **Pair the remote:** unplug your Fire TV, open System Settings › Bluetooth, and hold **Home** for about 10 seconds. When **"AR"** appears, click Connect **right away** (pairing mode lasts about 30 seconds). Quit the Keyboard Setup Assistant that pops up.
 3. **Dictation level:** in Handy, set the shortcut to **Left Option** and turn **Push to talk off**.
 
+## Tested setup
+
+Built and tested with the setup below. The alternatives should work too, but haven't been tested.
+
+| Part | Tested with | Alternatives |
+|---|---|---|
+| Remote | Fire TV voice remote (vendor `0x0171`, product `0x042F`) | Other Fire TV remotes, if they send the same codes (check with Karabiner-EventViewer) |
+| Button remapping | [Karabiner-Elements](https://karabiner-elements.pqrs.org) | None, this is required |
+| Dictation | [Handy](https://handy.computer) (runs locally), plus the ChatGPT and Claude apps' own dictation | macOS Dictation, Wispr Flow, Superwhisper: any app whose toggle shortcut you can set to Left Option |
+| Terminal and agents | [Ghostty](https://ghostty.org) + [Herdr](https://herdr.dev), Claude Code, Codex CLI | Any terminal works for the buttons. kaza needs Herdr |
+| Microphone | A wireless USB mic (Boya) | Built-in mic, AirPods, any USB mic |
+| Mac | Apple Silicon, macOS 26 | Older macOS versions are probably fine |
+
 ## Buttons
 
 The same in every app, except in the apps listed in the next section.

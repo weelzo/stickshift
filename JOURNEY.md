@@ -14,7 +14,7 @@ The Boya runs on AA batteries and has a physical power button, and it drained wh
 What stayed: the **Boya-off warning** (section 6).
 
 ## 3. Brainstorm of bigger ideas
-Approval key for risky agent commands, a "Jarvis" voice button, a meeting "clip that" button, couch code review, a talking rubber duck, tap codes, the Fire TV Stick as a status board on a monitor's HDMI input, AirPods nod-to-approve, the spare MacBook as an agent server. Deliberately limited to hardware already owned. The voice dispatcher (kaza) is the one that got built.
+Approval key for risky agent commands, a "Jarvis" voice button, a meeting "clip that" button, couch code review, a talking rubber duck, tap codes, a Fire TV Stick as a status board on a monitor's HDMI input, nod-to-approve with headphones, and a second Mac as an agent server. The voice dispatcher (kaza) is the one that got built.
 
 ## 4. kaza
 Herdr turned out to have a full CLI (`tab focus`, `agent prompt`, `pane split`, `agent start`), so the dispatcher needed no code, just a Claude Code session with a CLAUDE.md.
