@@ -87,7 +87,9 @@ herdr tab create --cwd ~/kaza --label kaza
 herdr agent start kaza --kind claude --pane <root_pane id from the command above>
 ```
 
-Accept the folder trust prompt, then type `/model haiku`, since a fast model is enough. The first time kaza waits for an agent or presses Enter in a stalled prompt, Claude Code asks you to allow it.
+Accept the folder trust prompt, then type `/model haiku`, since a fast model is enough.
+
+**Permissions:** the shipped `kaza/.claude/settings.json` pre-approves only reading, focusing, splitting panes, and opening five named apps. Claude Code asks you before kaza sends a prompt to an agent or starts a new one. For fully hands-free use, add `"Bash(herdr agent prompt:*)"` and `"Bash(herdr agent start:*)"` to `~/kaza/.claude/settings.json`. Know the trade-off: kaza reads other agents' output, and its instructions treat that text as data, not commands, but with those two permissions a tricked kaza could pass instructions on to other agents without asking you.
 
 ## Adding your own buttons
 

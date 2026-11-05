@@ -78,6 +78,9 @@ The README was cut down to what any user needs. The personal pieces (the Boya mi
 ## 16. Logo, round two
 The purple version was replaced with a black and white one. Dropped along the way: a wide game-controller variant (it read as a console controller, not a Fire TV remote), floating sparkles, and a blinking eye (too busy). The final mark is a slim Fire TV-style remote: the top button, where Alexa's mic button sits, is an AI sparkle, and the direction ring holds a terminal prompt `>_`. The gear-shift gate that used to sit there read as the letters "HH", and a lever, a gear map, a waveform, an "S" and an eye were also tried. Below that, one row of buttons and a volume rocker. `logo-light.svg` (black) and `logo-dark.svg` (white) are swapped by a `<picture>` element, so GitHub shows the right one in light and dark mode. All logo files come from `tools/make-logo.sh`.
 
+## 17. Tightening kaza after a security review
+An automated review of the first commit flagged two things in kaza's permissions: `open -a:*` also allowed `open -a Terminal script.command` (which runs a script), and pre-approved `herdr agent prompt` / `start` let text read from one agent reach another without the user. Fixes: `open -a` is now limited to five named apps, the shipped settings ask before prompting or starting agents (hands-free is an opt-in documented in the README), and kaza's CLAUDE.md now says that output read from other agents is data, never instructions.
+
 ## Next
 - Fix delete-word (try Ctrl+W).
 - Decide on the sleep fix.
