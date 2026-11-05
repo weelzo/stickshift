@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(herdr agent list:*)",
+      "Bash(herdr agent get:*)",
+      "Bash(herdr agent read:*)",
+      "Bash(herdr agent focus:*)",
+      "Bash(herdr agent prompt:*)",
+      "Bash(herdr agent start:*)",
+      "Bash(herdr tab list:*)",
+      "Bash(herdr tab focus:*)",
+      "Bash(herdr pane list:*)",
+      "Bash(herdr pane layout:*)",
+      "Bash(herdr pane split:*)",
+      "Bash(herdr workspace list:*)",
+      "Bash(open -a:*)"
+    ]
+  }
+}
