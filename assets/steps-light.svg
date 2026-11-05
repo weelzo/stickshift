@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 172" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15">
+  <g fill="none" stroke="#111111" stroke-width="2"><rect x="10" y="20" width="200" height="140" rx="14"/><rect x="260" y="20" width="200" height="140" rx="14"/><rect x="510" y="20" width="200" height="140" rx="14"/></g>
+  <g fill="#111111"><path d="M222 90h22l-7-7M244 90l-7 7" stroke="#111111" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M472 90h22l-7-7M494 90l-7 7" stroke="#111111" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <circle cx="110" cy="72" r="24"/><rect x="104" y="58" width="12" height="20" rx="6" fill="#ffffff"/><path d="M98 74a12 12 0 0 0 24 0M110 86v6" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <rect x="285" y="52" width="150" height="40" rx="8" fill="none" stroke="#111111" stroke-width="2"/><text x="296" y="77" font-family="ui-monospace, Menlo, monospace" font-size="13">&gt; fix the test</text>
+    <circle cx="610" cy="72" r="24"/><circle cx="610" cy="72" r="10" fill="#ffffff"/>
+    <text x="110" y="128" text-anchor="middle" font-weight="700">1  Press mic, speak</text>
+    <text x="360" y="128" text-anchor="middle" font-weight="700">2  Your words appear</text>
+    <text x="610" y="128" text-anchor="middle" font-weight="700">3  Select sends it</text></g>
+</svg>

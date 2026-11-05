@@ -9,6 +9,29 @@
 
 Press the mic button to dictate anywhere. Hold Menu to talk to **kaza**, a small dispatcher agent that runs your terminal agents ("tell reviewer to give me a status", "open a new Codex next to the api tab and ask it to review PR 123"). The other buttons paste, delete, cancel, scroll, switch apps and run your meetings. Every button is one Karabiner rule you can change.
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/remote-dark.svg">
+    <img src="assets/remote-light.svg" alt="What each remote button does" width="640">
+  </picture>
+</p>
+
+## How it works
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/flow-dark.svg">
+    <img src="assets/flow-light.svg" alt="The remote talks to Karabiner, which drives dictation, kaza and your apps" width="640">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/steps-dark.svg">
+    <img src="assets/steps-light.svg" alt="Press mic and speak, your words appear, Select sends them" width="640">
+  </picture>
+</p>
+
 ## Stickshift vs Codex Micro
 
 Codex Micro, OpenAI's macro pad for Codex, showed that agents deserve physical buttons. Stickshift gets you most of that with a remote you may already own.

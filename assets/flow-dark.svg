@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 230" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15">
+  <g fill="none" stroke="#f0f3f6" stroke-width="2">
+    <rect x="10" y="85" width="150" height="56" rx="12"/><rect x="210" y="85" width="170" height="56" rx="12"/>
+    <rect x="440" y="10" width="270" height="56" rx="12"/><rect x="440" y="87" width="270" height="56" rx="12"/><rect x="440" y="164" width="270" height="56" rx="12"/>
+    <path d="M160 113h44M380 113c30 0 30-75 54-75M380 113h54M380 113c30 0 30 79 54 79" stroke-linecap="round"/>
+  </g>
+  <g fill="#f0f3f6" text-anchor="middle"><text x="85" y="118" font-weight="700">Fire TV remote</text><text x="295" y="110" font-weight="700">Karabiner-Elements</text><text x="295" y="129" fill="#7d8590" font-size="13">remaps every button</text>
+    <text x="575" y="35" font-weight="700">Dictation</text><text x="575" y="54" fill="#7d8590" font-size="13">Handy, ChatGPT or Claude app</text>
+    <text x="575" y="112" font-weight="700">kaza in Herdr</text><text x="575" y="131" fill="#7d8590" font-size="13">voice commands to your agents</text>
+    <text x="575" y="189" font-weight="700">Any Mac app</text><text x="575" y="208" fill="#7d8590" font-size="13">paste, Esc, switcher, Meet, Zoom</text></g>
+</svg>

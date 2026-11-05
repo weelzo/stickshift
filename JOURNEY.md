@@ -81,6 +81,9 @@ The purple version was replaced with a black and white one. Dropped along the wa
 ## 17. Tightening kaza after a security review
 An automated review of the first commit flagged two things in kaza's permissions: `open -a:*` also allowed `open -a Terminal script.command` (which runs a script), and pre-approved `herdr agent prompt` / `start` let text read from one agent reach another without the user. Fixes: `open -a` is now limited to five named apps, the shipped settings ask before prompting or starting agents (hands-free is an opt-in documented in the README), and kaza's CLAUDE.md now says that output read from other agents is data, never instructions.
 
+## 18. Visuals in the README
+Popular Mac tool READMEs (Stats, Handy, Rectangle, Ice, Karabiner-Elements) mostly rely on one strong image near the top and few others, no diagrams or GIFs. Stickshift got three black and white SVGs with light and dark versions: a labeled remote showing each button's job, a "how it works" diagram, and a three-step strip (press mic, words appear, Select sends) that a recorded demo GIF can replace later.
+
 ## Next
 - Fix delete-word (try Ctrl+W).
 - Decide on the sleep fix.
