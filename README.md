@@ -156,7 +156,7 @@ Karabiner, the helper apps and the scripts run on your Mac. Handy transcribes lo
 
 ## Extras
 
-Personal add-ons, adjustable for your own setup: a [mic-off warning](docs/extras.md#mic-off-warning-installsh--boya) for wireless USB mics, [MenuReader](docs/extras.md#menureader-find-any-apps-shortcuts) for finding app shortcuts, and [hardware details](docs/extras.md#why-some-remote-buttons-are-dead). How it was built, including the dead ends: [JOURNEY.md](JOURNEY.md).
+Personal add-ons, adjustable for your own setup: a [mic-off warning](docs/extras.md#mic-off-warning-installsh--boya) for wireless USB mics, [MenuReader](docs/extras.md#menureader-find-any-apps-shortcuts) for finding app shortcuts, and [hardware details](docs/extras.md#why-some-remote-buttons-are-dead).
 
 ## License
 
